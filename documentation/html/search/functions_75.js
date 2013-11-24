@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['updatestatistics',['updateStatistics',['../classjenes_1_1_genetic_algorithm_3_01_t_01extends_01_chromosome_01_4.html#a8a4f4965c968047c55a8b56240267a4f',1,'jenes.GeneticAlgorithm&lt; T extends Chromosome &gt;.updateStatistics()'],['../classjenes_1_1population_1_1_pool_3_01_t_01extends_01_chromosome_01_4.html#a5e0915555c9dd5baa482bab3acc830fd',1,'jenes.population.Pool&lt; T extends Chromosome &gt;.updateStatistics()'],['../classjenes_1_1population_1_1_population_3_01_t_01extends_01_chromosome_01_4.html#a2c25dfd7e794dda3bd77926a1bebc099',1,'jenes.population.Population&lt; T extends Chromosome &gt;.updateStatistics()'],['../classjenes_1_1stage_1_1operator_1_1_operator_3_01_t_01extends_01_chromosome_01_4.html#a11ffd92acef6de663583899707cbbab9',1,'jenes.stage.operator.Operator&lt; T extends Chromosome &gt;.updateStatistics()']]]
+];

@@ -1,0 +1,82 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}{\section{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness Class Reference}
+\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}\index{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness@{jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness}}
+}
+Inheritance diagram for jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}{Image\-Matching\-Fitness} (int target\-Degree)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}{print\-Graphics} (double rotation, boolean show\-Signature)
+\item 
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ad1678b0716a862654451a29b12964ec1}{void {\bfseries evaluate} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ individual)}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ad1678b0716a862654451a29b12964ec1}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E} = \char`\"{}files.\-Tutorial11/dog.\-jpg\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ac56d86ab7d7c270c284ea8745b53d0b6}{Fitness$<$ \hyperlink{classjenes_1_1chromosome_1_1_bitwise_chromosome}{Bitwise\-Chromosome} $>$ {\bfseries duplicate} ()  throws Clone\-Not\-Supported\-Exception }\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ac56d86ab7d7c270c284ea8745b53d0b6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represent the fitness function used to match orientation of a sample image. The algorithm used is inspired to Java Image Processing Cookbook by Rafael Santos (see \href{http://www.lac.inpe.br/JIPCookbook/}{\tt Web site})
+
+\begin{DoxySince}{Since}
+2.\-0 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!Image\-Matching\-Fitness@{Image\-Matching\-Fitness}}
+\index{Image\-Matching\-Fitness@{Image\-Matching\-Fitness}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{Image\-Matching\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-Image\-Matching\-Fitness (
+\begin{DoxyParamCaption}
+\item[{int}]{target\-Degree}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_ab2d23d7e2f9d4cbb57d5818dbcf91e05}
+Default constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!print\-Graphics@{print\-Graphics}}
+\index{print\-Graphics@{print\-Graphics}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{print\-Graphics}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-print\-Graphics (
+\begin{DoxyParamCaption}
+\item[{double}]{rotation, }
+\item[{boolean}]{show\-Signature}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_a57d1723f3fea82e96455935aefb360b9}
+Print a graphical representation of the results 
+\begin{DoxyParams}{Parameters}
+{\em rotation} & \\
+\hline
+{\em show\-Signature} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}{\index{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}!S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E@{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}}
+\index{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E@{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}!jenes::tutorials::problem11::ImageMatchingFitness@{jenes\-::tutorials\-::problem11\-::\-Image\-Matching\-Fitness}}
+\subsubsection[{S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E}]{\setlength{\rightskip}{0pt plus 5cm}final String jenes.\-tutorials.\-problem11.\-Image\-Matching\-Fitness.\-S\-O\-U\-R\-C\-E\-\_\-\-I\-M\-A\-G\-E = \char`\"{}files.\-Tutorial11/dog.\-jpg\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classjenes_1_1tutorials_1_1problem11_1_1_image_matching_fitness_abcca6e100ede27ef9a90ddbc35497efd}
+image to load 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+jenes/src/tutorials/problem11/Image\-Matching\-Fitness.\-java\end{DoxyCompactItemize}

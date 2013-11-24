@@ -1,0 +1,88 @@
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}{\section{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator Class Reference}
+\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}\index{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator@{jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator}}
+}
+Inheritance diagram for jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}{Multi\-Thread\-Evaluator} (int nthreads)
+\item 
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}{Multi\-Thread\-Evaluator} ()
+\item 
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a2a9d9427ca8c2b8a9dfc541c85bada42}{void {\bfseries on\-Evaluation\-Begin} (Population pop, boolean forced)}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a2a9d9427ca8c2b8a9dfc541c85bada42}
+
+\item 
+synchronized void \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}{evaluate\-Individual} (Individual individual)
+\item 
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a3cd56b43989da43e4b3c2b79260d5f5f}{synchronized void {\bfseries on\-Evaluation\-End} ()}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a3cd56b43989da43e4b3c2b79260d5f5f}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class represent a simple implementation of a multi thread runner
+
+\begin{DoxySince}{Since}
+2.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner}{Multi\-Thread\-Runner} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}}
+\index{Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{Multi\-Thread\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-Multi\-Thread\-Evaluator (
+\begin{DoxyParamCaption}
+\item[{int}]{nthreads}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_a842d648ae03a8d7f835a24c522d229ae}
+Default constructor that define the thread number to use 
+\begin{DoxyParams}{Parameters}
+{\em nthreads} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_a6319362b08c06d8bf26989407d223c31}{Multi\-Thread\-Runner\-::\-Multi\-Thread\-Runner(int)} 
+\end{DoxySeeAlso}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}}
+\index{Multi\-Thread\-Evaluator@{Multi\-Thread\-Evaluator}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{Multi\-Thread\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-Multi\-Thread\-Evaluator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ac9949bf8de0efb0cb47feb2df56140ff}
+Default constructor that generates an execution enviroinment with a number of threads equals to the number of phisical cores. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_runner_ab0815486f3159f086cd06ccab94df319}{Multi\-Thread\-Runner\-::\-Multi\-Thread\-Runner()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}{\index{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}!evaluate\-Individual@{evaluate\-Individual}}
+\index{evaluate\-Individual@{evaluate\-Individual}!jenes::utils::multitasking::MultiThreadEvaluator@{jenes\-::utils\-::multitasking\-::\-Multi\-Thread\-Evaluator}}
+\subsubsection[{evaluate\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void jenes.\-utils.\-multitasking.\-Multi\-Thread\-Evaluator.\-evaluate\-Individual (
+\begin{DoxyParamCaption}
+\item[{Individual}]{individual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classjenes_1_1utils_1_1multitasking_1_1_multi_thread_evaluator_ad99c13b137f1089a9f30377548b42e25}
+Call-\/back invoked in substitution to \hyperlink{}{Genetic\-Algorithm\#evaluate\-Individual(jenes.\-population.\-Individual)} 
+\begin{DoxyParams}{Parameters}
+{\em individual} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classjenes_1_1utils_1_1multitasking_1_1_runner_a250c5e0ffdb86ef0bb0e78e625a449e7}{jenes.\-utils.\-multitasking.\-Runner}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+jenes/src/utils/multitasking/Multi\-Thread\-Evaluator.\-java\end{DoxyCompactItemize}

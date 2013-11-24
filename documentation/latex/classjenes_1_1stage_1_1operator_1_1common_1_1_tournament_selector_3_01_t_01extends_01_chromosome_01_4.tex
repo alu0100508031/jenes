@@ -1,0 +1,82 @@
+\hypertarget{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4}{\section{jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$ Class Reference}
+\label{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4}\index{jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$@{jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$}}
+}
+Inheritance diagram for jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a69674739689660dc1926b06a43f2aa6d}{Tournament\-Selector} (int attempts)
+\item 
+int \hyperlink{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a93a5d890bc7a8f383bda9791baf0460c}{get\-Attempts} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_af18e34c3ad12626eb5d8540e05e9877e}{Individual$<$ T $>$ {\bfseries select} (List$<$ Individual$<$ T $>$$>$ list)}\label{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_af18e34c3ad12626eb5d8540e05e9877e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classic tournament selection operator. A number of attempts is specified at the instantiation time; it represents the number of iterations the selection procedure is repeated. Individuals are randomly choosen and the one with the best fitness will be selected. 
+
+The \hyperlink{}{pre\-Select(\-Population)} method is useless, so there is an overriding implementation in this selection algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & The class of chromosomes to work with.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+2.\-0 
+\end{DoxyVersion}
+\begin{DoxySince}{Since}
+1.\-0
+\end{DoxySince}
+\begin{DoxySeeAlso}{See Also}
+Individual 
+
+Population 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a69674739689660dc1926b06a43f2aa6d}{\index{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$}!Tournament\-Selector@{Tournament\-Selector}}
+\index{Tournament\-Selector@{Tournament\-Selector}!jenes::stage::operator::common::TournamentSelector< T extends Chromosome >@{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$}}
+\subsubsection[{Tournament\-Selector}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$.Tournament\-Selector (
+\begin{DoxyParamCaption}
+\item[{int}]{attempts}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a69674739689660dc1926b06a43f2aa6d}
+Constructs a new tournament selection object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em attempts} & the number of tournament attempts \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a93a5d890bc7a8f383bda9791baf0460c}{\index{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$@{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$}!get\-Attempts@{get\-Attempts}}
+\index{get\-Attempts@{get\-Attempts}!jenes::stage::operator::common::TournamentSelector< T extends Chromosome >@{jenes\-::stage\-::operator\-::common\-::\-Tournament\-Selector$<$ T extends Chromosome $>$}}
+\subsubsection[{get\-Attempts}]{\setlength{\rightskip}{0pt plus 5cm}int jenes.\-stage.\-operator.\-common.\-Tournament\-Selector$<$ T extends Chromosome $>$.get\-Attempts (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1stage_1_1operator_1_1common_1_1_tournament_selector_3_01_t_01extends_01_chromosome_01_4_a93a5d890bc7a8f383bda9791baf0460c}
+Returns the number of attempts of this tournament selection 
+
+\begin{DoxyReturn}{Returns}
+the number of attempts 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+jenes/src/stage/operator/common/Tournament\-Selector.\-java\end{DoxyCompactItemize}

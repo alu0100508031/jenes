@@ -1,0 +1,72 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness}{\section{jenes.\-tutorials.\-problem13.\-Week\-Fitness Class Reference}
+\label{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness}\index{jenes.\-tutorials.\-problem13.\-Week\-Fitness@{jenes.\-tutorials.\-problem13.\-Week\-Fitness}}
+}
+Inheritance diagram for jenes.\-tutorials.\-problem13.\-Week\-Fitness\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_a68e89aa16f8e8c6ad6b7775a1994fb48}{Week\-Fitness} (int objectives, boolean maximize, \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student}{Student}\mbox{[}$\,$\mbox{]} student, \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_week}{Week} week, int target\-Hours)
+\item 
+void \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_ad019aceef870bff9b8843982465bb7cc}{evaluate} (Individual$<$ \hyperlink{classjenes_1_1chromosome_1_1_object_chromosome}{Object\-Chromosome} $>$ individual)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Rappresent the fitness function used to evaluate the quality of a solution founded by the algorithm.
+
+\begin{DoxySince}{Since}
+2.\-1 
+\end{DoxySince}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_a68e89aa16f8e8c6ad6b7775a1994fb48}{\index{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness@{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness}!Week\-Fitness@{Week\-Fitness}}
+\index{Week\-Fitness@{Week\-Fitness}!jenes::tutorials::problem13::WeekFitness@{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness}}
+\subsubsection[{Week\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}jenes.\-tutorials.\-problem13.\-Week\-Fitness.\-Week\-Fitness (
+\begin{DoxyParamCaption}
+\item[{int}]{objectives, }
+\item[{boolean}]{maximize, }
+\item[{{\bf Student}\mbox{[}$\,$\mbox{]}}]{student, }
+\item[{{\bf Week}}]{week, }
+\item[{int}]{target\-Hours}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_a68e89aa16f8e8c6ad6b7775a1994fb48}
+Creates a new fitness with the given number of objectives and a flag indicating if consider the maximum score or the minum as better.
+
+
+\begin{DoxyParams}{Parameters}
+{\em objectives} & numbers of objective \\
+\hline
+{\em maximize} & when {\ttfamily true} the algorithm will find solution with maximum score; false otherwise \\
+\hline
+{\em student} & the array of students that lives in the house \\
+\hline
+{\em week} & the week to evaluate \\
+\hline
+{\em target\-Hours} & the amount of hours student have to work \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_ad019aceef870bff9b8843982465bb7cc}{\index{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness@{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!jenes::tutorials::problem13::WeekFitness@{jenes\-::tutorials\-::problem13\-::\-Week\-Fitness}}
+\subsubsection[{evaluate}]{\setlength{\rightskip}{0pt plus 5cm}void jenes.\-tutorials.\-problem13.\-Week\-Fitness.\-evaluate (
+\begin{DoxyParamCaption}
+\item[{Individual$<$ {\bf Object\-Chromosome} $>$}]{individual}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem13_1_1_week_fitness_ad019aceef870bff9b8843982465bb7cc}
+Put genes in a stack, in this way they could be popped out in order. This could be done according to the coding observed where we found a chromosome of lenght
+
+num\-\_\-of\-\_\-days $\ast$ num\-\_\-of\-\_\-hours\-\_\-per\-\_\-day
+
+where the first {\ttfamily num\-\_\-of\-\_\-hours\-\_\-per\-\_\-day} are represented by the temporal slices available in the first day, and so on...
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+jenes/src/tutorials/problem13/Week\-Fitness.\-java\end{DoxyCompactItemize}

@@ -1,0 +1,87 @@
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student}{\section{jenes.\-tutorials.\-problem13.\-Student Class Reference}
+\label{classjenes_1_1tutorials_1_1problem13_1_1_student}\index{jenes.\-tutorials.\-problem13.\-Student@{jenes.\-tutorials.\-problem13.\-Student}}
+}
+
+
+Inherited by jenes.\-tutorials.\-problem13.\-Student.\-Nobody.
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Nobody}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_aebe4648624fb42edbe76a97df5a46d2f}{{\bfseries Student} (String \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_acd9416058669bd3abf012a19a5519cf7}{name})}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_aebe4648624fb42edbe76a97df5a46d2f}
+
+\item 
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_aa71a038b009224ea869f5d5ae8520c14}{String {\bfseries get\-Name} ()}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_aa71a038b009224ea869f5d5ae8520c14}
+
+\item 
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_a225e053dfa52411539a658d3763a8a99}{void {\bfseries set\-Name} (String \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_acd9416058669bd3abf012a19a5519cf7}{name})}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_a225e053dfa52411539a658d3763a8a99}
+
+\item 
+abstract boolean \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_af3a49d7625c42483557f280fe9fc8a8e}{is\-Busy} (\hyperlink{enumjenes_1_1tutorials_1_1problem13_1_1_day}{Day} day, int hour)
+\item 
+String \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_a44b26d0a3014e1c8e91c32da462d573e}{to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_acd9416058669bd3abf012a19a5519cf7}{name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Rappresent an abstraction of a student who is bound. A student has an agenda that must be mapped by overriding the method \hyperlink{classjenes_1_1tutorials_1_1problem13_1_1_student_af3a49d7625c42483557f280fe9fc8a8e}{is\-Busy()}
+
+\begin{DoxySince}{Since}
+2.\-1 
+\end{DoxySince}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_af3a49d7625c42483557f280fe9fc8a8e}{\index{jenes\-::tutorials\-::problem13\-::\-Student@{jenes\-::tutorials\-::problem13\-::\-Student}!is\-Busy@{is\-Busy}}
+\index{is\-Busy@{is\-Busy}!jenes::tutorials::problem13::Student@{jenes\-::tutorials\-::problem13\-::\-Student}}
+\subsubsection[{is\-Busy}]{\setlength{\rightskip}{0pt plus 5cm}abstract boolean jenes.\-tutorials.\-problem13.\-Student.\-is\-Busy (
+\begin{DoxyParamCaption}
+\item[{{\bf Day}}]{day, }
+\item[{int}]{hour}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_af3a49d7625c42483557f280fe9fc8a8e}
+This method maps the student's agenda, it tells us if the student is busy or not
+
+
+\begin{DoxyParams}{Parameters}
+{\em day} & the day of the week in which we check if the student is busy \\
+\hline
+{\em hour} & the hour of the day in which we check if the student is busy. This parameter must be in the interval 0-\/24 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the student is busy in that day at the specified hour, else return false 
+\end{DoxyReturn}
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_a44b26d0a3014e1c8e91c32da462d573e}{\index{jenes\-::tutorials\-::problem13\-::\-Student@{jenes\-::tutorials\-::problem13\-::\-Student}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!jenes::tutorials::problem13::Student@{jenes\-::tutorials\-::problem13\-::\-Student}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-tutorials.\-problem13.\-Student.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_a44b26d0a3014e1c8e91c32da462d573e}
+This class represents the student who never is busy or the concept that nobody does something
+
+\begin{DoxyAuthor}{Author}
+Roberto Falzarano \href{mailto:robertofalzarano@gmail.com}{\tt robertofalzarano@gmail.\-com} 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjenes_1_1tutorials_1_1problem13_1_1_student_acd9416058669bd3abf012a19a5519cf7}{\index{jenes\-::tutorials\-::problem13\-::\-Student@{jenes\-::tutorials\-::problem13\-::\-Student}!name@{name}}
+\index{name@{name}!jenes::tutorials::problem13::Student@{jenes\-::tutorials\-::problem13\-::\-Student}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}String jenes.\-tutorials.\-problem13.\-Student.\-name\hspace{0.3cm}{\ttfamily [protected]}}}\label{classjenes_1_1tutorials_1_1problem13_1_1_student_acd9416058669bd3abf012a19a5519cf7}
+Name of the student 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+jenes/src/tutorials/problem13/Student.\-java\end{DoxyCompactItemize}
